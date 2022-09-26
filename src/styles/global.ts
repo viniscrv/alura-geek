@@ -3,6 +3,7 @@ import { createGlobalStyle } from 'styled-components';
 export default createGlobalStyle`
     :root {
         --azul: #2A7AE4;
+        --cinza: #464646;
     }
 
     * {
