@@ -53,6 +53,7 @@ export const Container = styled.div`
     }
     @media (max-width: 400px) {
         background-size: cover;
+        width: 400px;
             div {
             margin-left: 1em;
             h1 {
