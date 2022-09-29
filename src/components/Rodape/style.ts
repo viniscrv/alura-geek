@@ -48,4 +48,27 @@ export const Container = styled.div`
         text-align: center;
         background-color: #fff;
     }
+
+    @media (max-width: 400px){
+        .informacoes {
+            width: 100vw;
+            flex-wrap: wrap;
+            flex-direction: column;
+            align-items: center;
+            img {
+                width: 240px;
+            }
+            .lista {
+                margin: 1em 0;
+                text-align: center;
+            }
+            .contato {
+                padding: 1em;
+                width: 100%;
+                #nome {
+                    width: 100%;
+                }
+            }
+        }
+    }
 `

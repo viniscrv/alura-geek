@@ -41,14 +41,14 @@ export const Container = styled.div`
     }
 
     @media (max-width: 400px){
-        width: 400px;
+        width: 100vw;
             header {
             padding: 0 1em;
             }
             .produtos {
                 flex-wrap: wrap;
                 justify-content: space-evenly;
-                width: 400px;
+                width: 100vw;
                 div {
                     margin-bottom: 1em;
                     &:nth-child(3n){

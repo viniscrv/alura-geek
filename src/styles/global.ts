@@ -11,8 +11,13 @@ export default createGlobalStyle`
         padding: 0;
         box-sizing: border-box;
     }
+    
+    html, body{
+        overflow-x: hidden;
+    }
 
     html {
+        width: 100vw;
         @media (max-width: 1080px) {
             font-size: 93.75%;
         }

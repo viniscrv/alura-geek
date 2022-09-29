@@ -63,7 +63,6 @@ export const Container = styled.div`
     }
     @media (max-width: 400px){
         justify-content: space-around;
-
         .pesquisar {
             img {
                 width: 120px;
