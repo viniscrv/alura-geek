@@ -16,8 +16,9 @@ export const Container = styled.div`
                 margin-left: 2em;
                 border: none;
                 border-radius: 10px;
-                padding: .5em 4em;
+                padding: .5em ;
                 background-color: #F5F5F5;
+                width: 300px;
                 &[type='text'] {
                     background-image: url(${iconeLupa});
                     background-repeat: no-repeat;
@@ -25,7 +26,7 @@ export const Container = styled.div`
                 }
                 &::placeholder {
                     position: absolute;
-                    left: 30px;
+                    left: 20px;
                 }
             }  
         }
@@ -38,8 +39,11 @@ export const Container = styled.div`
             border: 1px solid var(--azul);
         }
     }
+    .lupa {
+        display: none;
+    }
 
-    @media (max-width: 768px){
+    @media (max-width: 800px){
         .pesquisar {
             img {
                 width: 160px;
@@ -56,17 +60,22 @@ export const Container = styled.div`
                 }   
             }  
         }
-        
     }
-    @media (max-width: 768px){
+    @media (max-width: 400px){
         justify-content: space-around;
 
         .pesquisar {
+            img {
+                width: 120px;
+            }
             div {
                 input {
                     display: none;
                 }
             }
+        }
+        .lupa {
+            display: block;
         }
     }
 `

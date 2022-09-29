@@ -29,8 +29,7 @@ export const Container = styled.div`
             margin-bottom: 1em;
         }
     }
-    /* 800px */
-    @media (max-width: 768px){
+    @media (max-width: 800px){
 
         div {
             margin-left: 2em;
@@ -51,5 +50,23 @@ export const Container = styled.div`
             }
         }
 
+    }
+    @media (max-width: 400px) {
+        background-size: cover;
+            div {
+            margin-left: 1em;
+            h1 {
+                font-size: 2em;
+                font-weight: 700;
+            }
+            p {
+                margin: .4em 0;
+            }
+            button {
+                background-color: var(--azul);
+                color: #fff;
+                padding: .8em 1em;
+            }
+        }
     }
 `

@@ -1,4 +1,5 @@
 import logoImg from '../../assets/img/Logo.svg'
+import iconeLupa from '../../assets/img/Lupa.png'
 import { Container } from './style'
 
 export function Header(){
@@ -13,6 +14,7 @@ export function Header(){
             <div className='botaoLogin'>
                 <button>Login</button>
             </div>
+            <img src={iconeLupa} className='lupa' alt="Lupa" />
         </Container>
 
     )
