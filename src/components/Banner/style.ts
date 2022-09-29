@@ -30,7 +30,7 @@ export const Container = styled.div`
         }
     }
     /* 800px */
-    @media (max-width: 800px){
+    @media (max-width: 768px){
 
         div {
             margin-left: 2em;

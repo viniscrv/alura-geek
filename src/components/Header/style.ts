@@ -38,4 +38,35 @@ export const Container = styled.div`
             border: 1px solid var(--azul);
         }
     }
+
+    @media (max-width: 768px){
+        .pesquisar {
+            img {
+                width: 160px;
+            }      
+            div {
+                input {
+                margin-left: 1em;
+                padding: .5em 2em;
+                    &[type='text'] {
+                        background-image: url(${iconeLupa});
+                        background-repeat: no-repeat;
+                        background-position: 95% 50%;
+                    }
+                }   
+            }  
+        }
+        
+    }
+    @media (max-width: 768px){
+        justify-content: space-around;
+
+        .pesquisar {
+            div {
+                input {
+                    display: none;
+                }
+            }
+        }
+    }
 `
