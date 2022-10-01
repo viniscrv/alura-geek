@@ -39,7 +39,22 @@ export const Container = styled.div`
             }
         }
     }
-
+    @media (max-width: 768px){
+        header {
+        width: 704px;
+        }
+        .produtos {
+            max-width: 704px;
+            div {
+                img {
+                    width: 164px;
+                }
+                &:nth-child(3n){
+                    display: none;
+                }
+            }
+        }
+    }
     @media (max-width: 400px){
         width: 100vw;
             header {

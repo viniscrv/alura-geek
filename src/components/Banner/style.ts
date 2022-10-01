@@ -29,31 +29,17 @@ export const Container = styled.div`
             margin-bottom: 1em;
         }
     }
-    @media (max-width: 800px){
-
+    @media (max-width: 768px){
         div {
             margin-left: 2em;
             h1 {
-                font-size: 1.5em;
-            }
-            p {
-                margin: 1em 0;
-                font-size: 20px;
-                font-weight: 600;
-            }
-            button {
-                background-color: var(--azul);
-                color: #fff;
-                padding: 1em 2em;
-                border: none;
-                margin-bottom: 1em;
+                font-size: 2.5em;
+                font-weight: 700;
             }
         }
-
     }
     @media (max-width: 400px) {
         background-size: cover;
-        width: 100vw;
             div {
             margin-left: 1em;
             h1 {

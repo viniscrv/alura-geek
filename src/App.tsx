@@ -6,13 +6,13 @@ import GlobalStyle from './styles/global';
 
 function App() {
   return (
-    <div>
+    <>
       <Header/>
       <Banner/>
       <Produtos/>
       <Rodape/>
       <GlobalStyle />
-    </div>
+    </>
   )
 }
 

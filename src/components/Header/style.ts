@@ -43,23 +43,8 @@ export const Container = styled.div`
         display: none;
     }
 
-    @media (max-width: 800px){
-        .pesquisar {
-            img {
-                width: 160px;
-            }      
-            div {
-                input {
-                margin-left: 1em;
-                padding: .5em 2em;
-                    &[type='text'] {
-                        background-image: url(${iconeLupa});
-                        background-repeat: no-repeat;
-                        background-position: 95% 50%;
-                    }
-                }   
-            }  
-        }
+    @media (max-width: 768px){
+        padding: 2em;
     }
     @media (max-width: 400px){
         justify-content: space-around;
