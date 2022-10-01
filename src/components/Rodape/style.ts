@@ -48,15 +48,32 @@ export const Container = styled.div`
         text-align: center;
         background-color: #fff;
     }
-
-    @media (max-width: 400px){
+    @media (max-width: 768px){
         .informacoes {
-            width: 100vw;
-            flex-wrap: wrap;
             flex-direction: column;
+            max-height: 500px;
+            max-width: 704px;
+            flex-wrap: wrap;
             align-items: center;
-            img {
+            div {
+                align-self: start;
+            }
+            .contato {
+                align-self: start;
+            }
+        }
+    }
+    @media (max-width: 400px){
+        width: 400px;
+        .informacoes {
+            max-width: 400px;
+            max-height: 100%;
+            flex-wrap: nowrap;
+            div{
+                align-self: center;
+                img {
                 width: 240px;
+            } 
             }
             .lista {
                 margin: 1em 0;
@@ -66,7 +83,10 @@ export const Container = styled.div`
                 padding: 1em;
                 width: 100%;
                 #nome {
-                    width: 100%;
+                    width: 90%;
+                }
+                #mensagem {
+                    width: 90%;
                 }
             }
         }
