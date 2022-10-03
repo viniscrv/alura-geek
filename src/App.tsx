@@ -1,18 +1,15 @@
-import { Banner } from "./components/Banner/Banner";
-import { Header } from "./components/Header/Header";
-import { Produtos } from "./components/Produtos/Produtos";
-import { Rodape } from "./components/Rodape/Rodape";
-import GlobalStyle from './styles/global';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './pages/Home'
+import Login from './pages/Login';
 
 function App() {
   return (
-    <>
-      <Header/>
-      <Banner/>
-      <Produtos/>
-      <Rodape/>
-      <GlobalStyle />
-    </>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home/>}/>
+        <Route path="/Login" element={<Login/>}/>
+      </Routes>
+    </Router>
   )
 }
 
