@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { Container } from "./style";
 
 export function Banner(){
@@ -6,7 +7,7 @@ export function Banner(){
             <div>
                 <h1>Dezembro Promocional</h1>
                 <p>Produtos selecionados com 33% de desconto</p>
-                <button>Ver Consoles</button>
+                <Link to='/Produtos'><button>Ver Consoles</button></Link>
             </div>
         </Container>
     )

@@ -26,4 +26,23 @@ export const Container = styled.div`
         flex-wrap: wrap;
         justify-content: space-between;
     }
+    @media (max-width: 768px){
+        padding: 1em;
+        .produtos {
+            width: 730px;
+        }
+    }
+    @media (max-width: 400px){
+        .topo {
+            align-items: flex-start;
+            flex-direction: column;
+            margin-bottom: 0;
+            h2 {
+                margin-bottom: 1em;
+            }
+        }
+        .produtos {
+            width: 350px;
+        }
+    }
 `
