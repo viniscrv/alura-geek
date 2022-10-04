@@ -3,7 +3,6 @@ import styled from "styled-components";
 
 export const Container = styled.div`
     max-width: 1120px;
-    height: 600px; /* mudar */
     margin: 0 auto;
     .topo {
         display: flex;
@@ -20,5 +19,11 @@ export const Container = styled.div`
                 background-color: var(--azul);
                 border: none;
             }
+    }
+    .produtos {
+        width: 1120px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
     }
 `
