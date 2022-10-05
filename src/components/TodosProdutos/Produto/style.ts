@@ -1,8 +1,23 @@
 import styled from "styled-components";
 
-
 export const Container = styled.div`
     margin-top: 2em;
+    div {
+        position: relative;
+        img[alt='Excluir'] {
+            position: absolute;
+            top: 10px;
+            right: 40px;
+            cursor: pointer;
+        }
+        img[alt='Editar'] {
+            position: absolute;
+            top: 10px;
+            right: 5px;
+            cursor: pointer;
+        }
+    }
+
     .preco {
         font-weight: 700;
     }

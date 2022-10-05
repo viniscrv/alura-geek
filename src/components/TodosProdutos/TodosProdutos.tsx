@@ -48,7 +48,7 @@ export function TodosProdutos(){
                 <Produto imagem={diversos4} />
                 <Produto imagem={diversos5} />
                 <Produto imagem={diversos6} />
-                </div>           
+            </div>           
         </Container>
 
     )
