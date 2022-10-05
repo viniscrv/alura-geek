@@ -7,44 +7,44 @@ export function Categoria(props: {categoria:string, produto1: string, produto2: 
         <Container>
                 <header>
                     <h2>{props.categoria}</h2>
-                    <a href="">Ver tudo</a>
+                    <Link to="/Produtos"><a href="">Ver tudo</a></Link>
                 </header>
                 <div className="produtos">
                     <div>
-                        <img src={props.produto1} alt="" />
+                        <img src={props.produto1} alt=""/>
                         <p className="titulo">Produto XYZ</p>
                         <p className="preco">R$ 60,00</p>
-                        <Link to='/Produtos'><a href="#">Ver produto</a></Link>
+                        <a href="#">Ver produto</a>
                     </div>
                     <div>
-                        <img src={props.produto2} alt="" />
+                        <img src={props.produto2} alt=""/>
                         <p className="titulo">Produto XYZ</p>
                         <p className="preco">R$ 60,00</p>
-                        <Link to='/Produtos'><a href="#">Ver produto</a></Link>
+                        <a href="#">Ver produto</a>
                     </div>
                     <div>
-                        <img src={props.produto3} alt="" />
+                        <img src={props.produto3} alt=""/>
                         <p className="titulo">Produto XYZ</p>
                         <p className="preco">R$ 60,00</p>
-                        <Link to='/Produtos'><a href="#">Ver produto</a></Link>
+                        <a href="#">Ver produto</a>
                     </div>
                     <div>
-                        <img src={props.produto4} alt="" />
+                        <img src={props.produto4} alt=""/>
                         <p className="titulo">Produto XYZ</p>
                         <p className="preco">R$ 60,00</p>
-                        <Link to='/Produtos'><a href="#">Ver produto</a></Link>
+                        <a href="#">Ver produto</a>
                     </div>
                     <div>
-                        <img src={props.produto5} alt="" />
+                        <img src={props.produto5} alt=""/>
                         <p className="titulo">Produto XYZ</p>
                         <p className="preco">R$ 60,00</p>
-                        <Link to='/Produtos'><a href="#">Ver produto</a></Link>
+                        <a href="#">Ver produto</a>
                     </div>
                     <div>
-                        <img src={props.produto6} alt="" />
+                        <img src={props.produto6} alt=""/>
                         <p className="titulo">Produto XYZ</p>
                         <p className="preco">R$ 60,00</p>
-                        <Link to='/Produtos'><a href="#">Ver produto</a></Link>
+                        <a href="#">Ver produto</a>
                     </div>
                 </div>
             </Container>
