@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const Container = styled.div`
     background-color: #F5F5F5;
-    width: 100%;
     height: 60vh;
     display: flex;
     justify-content: center;
@@ -28,6 +27,9 @@ export const Container = styled.div`
             color: white;
         }
     }
-    
-
+    @media (max-width: 400px){
+        div {
+            padding: 0 1em;
+        }
+    }
 `
