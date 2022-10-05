@@ -20,13 +20,14 @@ import diversos6 from '../../assets/img/produtosImgDiversos/unsplash_sYVY_ZKwaxU
 
 import { Produto } from './Produto/Produto';
 import { Container } from "./style";
+import { Link } from 'react-router-dom'
 
 export function TodosProdutos(){
     return (
         <Container>
             <div className="topo">
                 <h2>Todos os produtos</h2>
-                <button>Adicionar produto</button>
+                <Link to='/NovoProduto'><button>Adicionar produto</button></Link>
             </div>
             <div className="produtos">
                 <Produto imagem={starWars1} />

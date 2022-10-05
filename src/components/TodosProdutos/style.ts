@@ -13,12 +13,12 @@ export const Container = styled.div`
             color: var(--cinza);
         }
         button {
-                width: max-content;
-                padding: .8em;
-                color: #fff;
-                background-color: var(--azul);
-                border: none;
-            }
+            width: max-content;
+            padding: .8em;
+            color: #fff;
+            background-color: var(--azul);
+            border: none;
+        }
     }
     .produtos {
         width: 1120px;
