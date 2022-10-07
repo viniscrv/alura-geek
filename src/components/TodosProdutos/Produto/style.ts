@@ -8,12 +8,14 @@ export const Container = styled.div`
             position: absolute;
             top: 10px;
             right: 40px;
+            width: min-content;
             cursor: pointer;
         }
         img[alt='Editar'] {
             position: absolute;
             top: 10px;
             right: 5px;
+            width: min-content;
             cursor: pointer;
         }
     }
