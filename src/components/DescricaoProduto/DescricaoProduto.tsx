@@ -17,7 +17,7 @@ export function DescricaoProduto() {
                 <div>
                     <h1>Produto XYZ</h1>
                     <span>R$ 60,00</span>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem harum corporis mollitia sunt molestiae, dolore et in qui saepe enim ad voluptatibus minus quibusdam recusandae delectus nulla ea. Corrupti dolores neque nihil veritatis sit optio nesciunt magnam minima! Est amet odio magni quisquam, eos non accusantium modi numquam eveniet ex?</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem harum corporis mollitia sunt molestiae, dolore et in qui saepe enim ad voluptatibus minus quibusdam recusandae delectus nulla ea. Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
                 </div>
             </div>
         </div>

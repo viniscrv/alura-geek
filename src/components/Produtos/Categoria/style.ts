@@ -20,6 +20,7 @@ export const Container = styled.div`
         flex-direction: row;
         justify-content: space-between;
         width: 100%;
+        flex-wrap: wrap;
         div {
             display: flex;
             flex-direction: column;

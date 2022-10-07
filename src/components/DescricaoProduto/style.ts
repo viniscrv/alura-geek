@@ -32,4 +32,42 @@ export const Container = styled.div`
         width: 100%;
         margin: 0 auto;
     }
+    @media (max-width: 768px){
+        .produto-destaque {
+            padding: 1.5em;
+            img {
+                width: 254px;
+            }
+            div {
+                max-height: 182px;
+                max-width: 500px;
+                h1 {
+                    font-size: 1.6em;
+                }
+                span {
+                    line-height: 1.3em;
+                }
+            }
+        }
+        .produtos-similares {
+            padding: 1.5em;
+        }
+    }
+    @media (max-width: 400px){
+        .produto-destaque {
+            flex-direction: column;
+            padding: 0;
+            max-width: 95%;
+            img {
+                width: 540px;
+            }
+            div {
+                padding: 1em;
+            }
+        }
+        .produtos-similares {
+            margin-top: 3em;
+            padding: 0;
+        }
+    }
 `
