@@ -6,11 +6,11 @@ export const Container = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    div {
+    form {
         display: flex;
         flex-direction: column;
         width: 20em;
-        h3 {
+        label {
         margin-bottom: 1.2em;
         text-align: center;
         font-weight: 700;
@@ -20,11 +20,12 @@ export const Container = styled.div`
             padding: .8em 1em;
             margin-bottom: 1em;
         }
-        button {
+        input[type='submit'] {
             padding: 1em 1em;
             background-color: var(--azul);
             border: none;
             color: white;
+            cursor: pointer;
         }
     }
     @media (max-width: 400px){
