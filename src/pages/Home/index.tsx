@@ -7,7 +7,7 @@ import GlobalStyle from '../../styles/global';
 function Home() {
   return (
     <>
-      <Header/>
+      <Header login='login'/>
       <Banner/>
       <Produtos/>
       <Rodape/>

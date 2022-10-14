@@ -2,8 +2,14 @@ import { Link } from 'react-router-dom'
 import logoImg from '../../assets/img/Logo.svg'
 import iconeLupa from '../../assets/img/Lupa.png'
 import { Container } from './style'
+import BotaoLogin from '../BotaoLogin/BotaoLogin'
 
-export function Header(){
+
+Header.defaultProps = {
+    login: null,
+};
+export function Header(props: {login:string}){
+    
     return (
         <Container>
             <div className='pesquisar'>
@@ -14,13 +20,10 @@ export function Header(){
                     <input type="text" placeholder='O que deseja encontrar?'/>
                 </div>
             </div>
-            <div className='botaoLogin'>
-                <Link to='/Login'>
-                    <button>Login</button>
-                </Link>
+            <div>
+                { props.login == 'login' ? <BotaoLogin/> : ''}
             </div>
             <img src={iconeLupa} className='lupa' alt="Lupa" />
         </Container>
-
     )
 }
