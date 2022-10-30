@@ -33,4 +33,10 @@ export const Container = styled.div`
             padding: 0 1em;
         }
     }
+
+    @keyframes shake {
+        25% {transform: translateX(4px)}
+        50% {transform: translateX(-4px)}
+        75% {transform: translateX(4px)}
+    }
 `

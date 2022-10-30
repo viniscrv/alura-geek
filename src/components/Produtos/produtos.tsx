@@ -18,8 +18,12 @@ import diversos3 from '../../assets/img/produtosImgDiversos/unsplash_jMT6BrgBuXU
 import diversos4 from '../../assets/img/produtosImgDiversos/unsplash_MxVkWPiJALs.png'
 import diversos5 from '../../assets/img/produtosImgDiversos/unsplash_r27umXAelDc.png'
 import diversos6 from '../../assets/img/produtosImgDiversos/unsplash_sYVY_ZKwaxU.png'
+import { useState } from "react";
 
 export function Produtos(){
+
+    
+
     return (
         <Container>
             <Categoria

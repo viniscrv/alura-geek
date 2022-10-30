@@ -13,7 +13,6 @@ function NovoProduto(){
             <GlobalStyle/>
         </>
     )
-
 }
 
 export default NovoProduto
